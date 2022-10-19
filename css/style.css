@@ -1,0 +1,320 @@
+/* Custom Utilities and components classes */
+ 
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px !important; 
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-25 {
+  font-size: 25px !important;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-35 {
+  font-size: 35px;
+}
+
+.font-49 {
+  font-size: 49px;
+}
+
+/* Font Weight */
+
+.fontw300 {
+  font-weight: 300;
+}
+
+.fontw400 {
+  font-weight: 400;
+}
+
+.fontw500 {
+  font-weight: 500 !important;
+}
+
+.fontw600 {
+  font-weight: 600 !important; 
+}
+
+.fontw700 {
+  font-weight: 700 ;
+}
+
+.fontw800 {
+  font-weight: 800;
+}
+
+.fontwbold {
+  font-weight: bold;
+}
+.fontwbolder {
+  font-weight: bolder !important;
+}
+
+
+/* colors css */
+.text-black {
+  color: #0b132a;
+}
+.text-lightBlack {
+  color: #4f5665;
+}
+/* colors css */
+
+/* line height */
+
+
+.lh-1 {
+  line-height: 1;
+}
+.lh-1_5 {
+  line-height: 1.5;
+}
+.lh-1_7 {
+  line-height: 1.7;
+}
+.lh-1_8 {
+  line-height: 1.8;
+}
+.lh-2 {
+  line-height: 2;
+}
+/* Text-color */
+
+/* Text-color */
+
+/* reset padding */
+.my-10 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.shadowDiv {
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 12%), 0 4px 4px rgb(0 0 0 / 6%) !important;
+}
+.shadow-lightRed {
+  box-shadow: 2px 20px 50px 4px #fab7b7;
+}
+.shadow-lightGrey {
+  box-shadow: rgba(139, 142, 158, 0.2) 0px 35px 70px -20px;
+}
+/* btn */
+.btn-red {
+  background-color: #f53838 !important;
+  color: #ffff !important;
+}
+
+.btn-red:hover {
+  color: #f53838 !important;
+  border: 1px solid #f53838 !important;
+  background-color: #ffff !important;
+}
+.btn-outline-red {
+  color: #f53838 !important;
+  border: 1px solid #f53838 !important;
+  background-color: #ffff !important;
+}
+
+.btn-outline-red:hover {
+  color: #fff !important;
+  background-color: #f53838 !important;
+  box-shadow: 2px 20px 50px 4px #fab7b7;
+}
+/* btn */
+
+/* Border-radius and Border*/
+.border2-grey {
+  border: 2px solid #dddddd;
+}
+.border2-red {
+  border: 2px solid #f53838 !important;
+}
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
+.rounded-25 {
+  border-radius: 25px !important;
+}
+.rounded-30 {
+  border-radius: 30px !important;
+}
+.rounded-20 {
+  border-radius: 20px !important;
+}
+
+.rounded-40 {
+  border-radius: 40px !important;
+}
+.rounded-50 {
+  border-radius: 50px !important;
+}
+
+/* Border-radius */
+
+/* Width, Height, Padding, Margin */
+
+.loginForm {
+  max-width: 380px;
+}
+
+.mwx970 {
+  max-width: 970px;
+}
+
+.px-10 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+
+/* Width, Height, Padding, Margin */
+.mw-container{
+  max-width: 1600px !important;
+}
+/* z index class */
+
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+
+
+/* z index class */
+
+/* Custom Utilities and components classes */
+
+
+body {
+  font-family: "Rubik", sans-serif !important;
+}
+
+/* header Navbar*/
+header .navbar .nav-link {
+  font-weight: 400;
+  font-size: 1;
+  line-height: 19px;
+  color: #4f5665;
+}
+
+header .navbar .nav-link:hover {
+  color: #f53838;
+}
+
+.btn-signIn:hover {
+  color: #f53838 !important;
+}
+
+.services {
+  box-shadow: rgb(139 142 158 / 10%) 0px 25px 100px -20px;
+}
+
+.paymentMethod .payment-heading p {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.free-payment-plan:hover {
+  border: 2px solid #f53838;
+}
+
+.fast-network-heading h3,
+.customersHappiness h3 {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.fast-network-heading p,
+.customersHappiness p {
+  max-width: 50%;
+  margin: 0 auto;
+
+}
+
+/* header NavBar*/
+
+/* Review section */
+.customerSatisfaction {
+  max-width: 1300px;
+}
+
+.customer {
+  max-width: 1250px;
+  margin-left: 180px;
+  overflow-x: hidden;
+}
+
+.reviews {
+  height: 230px;
+}
+
+.reviews:hover {
+  border: 2px solid #f53838;
+}
+
+/* Review section */
+
+.carousel-indicators .active {
+  opacity: 1 !important;
+  width: 50px !important;
+  height: 15px !important;
+  border-radius: 50px;
+
+}
+
+.carousel-indicators li {
+  width: 15px !important;
+  height: 15px !important;
+  margin-right: 3px;
+  margin-left: 3px;
+  cursor: pointer;
+  background-color: #f53838 !important;
+  border-radius: 50%;
+  opacity: 0.5 !important;
+  transition: opacity 0.6s ease;
+  border: none !important;
+}
+
+/* footer section */
+footer {
+  background-color: #f6f6f6;
+  margin: -100px 0 0 0px;
+  padding: 120px 0 0 0;
+}
+
+.indicator-btn .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* footer section */
+
+
+@media only screen and (max-width: 760px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .customer {
+    margin-left:0 ;
+    /* padding: ; */
+      }
+}
